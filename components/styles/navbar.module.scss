@@ -1,0 +1,26 @@
+@use '/styles/lib/var';
+
+.nav{
+    display: flex; //grid
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: var.$navbar_h;
+    background-color: var.$color3;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    font-size: var.$sm_font;
+}
+
+.navLink{
+    padding: 0px 20px;
+}
+
+.navLink:hover{
+    color: var.$color2;
+}
+
+.navLink_container{
+}

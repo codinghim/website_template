@@ -1,0 +1,16 @@
+@use '/styles/lib/var';
+
+
+.footer{
+    position:absolute;
+    bottom: 0;
+    width: 100vw;
+    height: var.$footer_h;
+    background-color: var.$color3;
+    .copyright{
+        color: var.$color2;
+        height: 20vh;
+        text-align: center;
+        padding-top: 8vh;
+    }
+}
