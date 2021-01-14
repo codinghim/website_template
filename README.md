@@ -1,5 +1,14 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## This Project is built to be used for boilerplate for projects to build website with Next.js.
+
+## Use as an example of npx create-next-app
+
+Run the following code to start with this example 
+```bash
+npx create-next-app -e https://github.com/codinghim/website_template.git
+```
+
 ## Getting Started
 
 First, run the development server:
